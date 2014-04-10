@@ -142,21 +142,21 @@ a {
 }
 
 .amazonbg {
-    background: url("/images/amazon-bg.jpg") no-repeat;
+    background: url("../../images/amazon-bg.jpg") no-repeat;
     background-size: cover;
 }
 .studentbg {
-     background: url("/images/student-bg.jpg") no-repeat;
+     background: url("../../images/student-bg.jpg") no-repeat;
      background-size: cover;
  }
 .devtoolsbg {
-    background: url("/images/devtoolsbg.jpg") no-repeat;
+    background: url("../../images/devtoolsbg.jpg") no-repeat;
     background-size: cover;
 }
 .appnetabg {
     background-color: #f4f4f4 !important;
     div {
-        background-image: url("/images/appneta-bg.jpg");
+        background-image: url("../../images/appneta-bg.jpg");
         background-repeat: no-repeat;
         background-size: contain;
         width: 100%;
@@ -164,13 +164,13 @@ a {
     }
 }
 .appneta-report {
-    background: url("/images/appneta-report.jpg") no-repeat;
+    background: url("../../images/appneta-report.jpg") no-repeat;
     background-size: contain;
     background-position: center;
     background-color: #FFF !important;
 }
 .appneta-timeline {
-    background: url("/images/appneta-timeline.jpg") no-repeat;
+    background: url("../../images/appneta-timeline.jpg") no-repeat;
     background-size: contain;
     background-position: center;
     background-color: #FFF !important;
@@ -178,7 +178,7 @@ a {
 .ruler {
     width: 100%;
     height: 40px;
-    background: url("/images/ruler-tile.png") repeat-x;
+    background: url("../../images/ruler-tile.png") repeat-x;
 }
 .barrier {
     width: 100%;
