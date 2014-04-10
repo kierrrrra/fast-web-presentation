@@ -1,0 +1,20 @@
+{
+  "name": "performance",
+  "version": "0.0.0",
+  "description": "",
+  "main": "jquery.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-notify": "~0.2.20",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-watch": "~0.6.0"
+  },
+  "dependencies": {
+    "express": "~3.4.8"
+  }
+}

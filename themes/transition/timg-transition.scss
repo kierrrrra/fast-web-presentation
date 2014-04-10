@@ -1,0 +1,72 @@
+@mixin translate($x: 0, $y: 0, $z: 0) {
+  -webkit-transform:translate3d($x, $y, $z);
+  -ms-transform:translate($x, $y);
+  transform:translate3d($x, $y, $z);
+}
+
+@mixin transition($prop, $duration, $easing: ease-in-out, $delay: 0ms) {
+  -webkit-transition:$prop $duration $easing $delay;
+  transition:$prop $duration $easing $delay;
+}
+
+.csstransitions.csstransforms {
+  .deck-container .slide {
+    @include transition(all, 250ms);
+  }
+
+  .deck-container:not(.deck-menu) {
+      > .deck-previous.slide {
+          @include translate(0, -200%);
+      }
+      > .deck-next.slide {
+          @include translate(0, 200%);
+      }
+      > .deck-child-current.slide {
+          @include translate(0);
+      }
+      > .deck-before.slide:not(.deck-child-current) {
+          @include translate(0, -400%);
+      }
+      > .deck-after.slide {
+          @include translate(0, 400%);
+      }
+
+    > .slide {
+      position:absolute;
+      top:0;
+      left:0;
+
+      .slide {
+        position:relative;
+        left:0;
+        top:0;
+      }
+
+      .deck-next, .deck-after {
+        opacity:0;
+      }
+
+      .deck-current {
+        opacity:1;
+      }
+    }
+
+    > .deck-previous,
+    > .deck-before,
+    > .deck-next,
+    > .deck-after {
+      pointer-events:none;
+    }
+
+    > .deck-child-current {
+      opacity:1;
+      visibility:visible;
+      pointer-events:auto;
+
+      .deck-next, .deck-after {
+          .slide {
+          }
+      }
+    }
+  }
+}

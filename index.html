@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+
+    <title>Fast Web Quickly</title>
+
+    <!-- Required stylesheet -->
+    <link rel="stylesheet" media="screen" href="core/deck.core.css">
+
+    <!-- Extension CSS files go here. Remove or add as needed. -->
+    <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+    <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
+    <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
+    <!--<link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">-->
+
+    <!-- Style theme. More available in /themes/style/ or create your own. -->
+    <link rel="stylesheet" media="screen" href="themes/style/timg.css">
+
+    <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+    <link rel="stylesheet" media="screen" href="themes/transition/timg-transition.css">
+
+    <!-- Required Modernizr file -->
+    <script src="modernizr.custom.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300,700italic,400italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,700,800,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+    <section class="slide first">
+        <h1>Fast Web Quickly</h1>
+        <div class="loader1"></div>
+        <div class="timg">Tim Gilyazetdinov</div>
+    </section>
+
+    <section class="slide">
+      <h1>Big deal.</h1>
+    </section>
+
+    <section class="slide amazonbg">
+        <h2>Amazon increased revenue by 1% for every 100ms of improvement</h2>
+        <h2 class="slide nobg">That's $744,500,000</h2>
+    </section>
+
+    <section class="slide">
+        <h3>• Increased productivity</h3>
+        <h3 class='slide nobg'>• Convenience of use</h3>
+        <h3 class='slide nobg'>• Student's attention</h3>
+    </section>
+
+    <section class="slide">
+        <h2>1000ms barrier</h2>
+        <div class="barrier">
+            <div class="slide"><span class='light'>0 - 100 ms</span><br><strong>instant</strong></div>
+            <div class="slide"><span class='light'>100 - 300 ms</span><br><strong>sluggish</strong></div>
+            <div class="slide"><span class='light'>300 - 1000 ms</span><br><strong>is it working?</strong></div>
+            <div class="slide"><span class='light'>1 s+</span><br><strong>mental context switch</strong></div>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>per·for·mance</h2>
+    </section>
+
+    <secion class="slide">
+        <h2>load time</h2>
+        <div class="timeline">
+            <div class="step server">Server</div>
+            <div class="step network">Network</div>
+            <div class="step dom">DOM Processing</div>
+            <div class="step render">Render</div>
+        </div>
+        <br>
+        <h4 class='light'>window.onload</h4>
+    </secion>
+
+    <section class="slide appneta-timeline">
+    </section>
+
+    <section class="slide" style="align-items: flex-start;">
+        <div class="slide">&nbsp;</div>
+        <div class="zoomable">
+            <img src="images/filmstrip-amazon.png"/>
+            <img src="images/filmstrip-grubhub.png"/>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Perceived performance</h2>
+    </section>
+
+    <section class="slide">
+        <div class="timeline">
+            <div class="step server">Server</div>
+            <div class="step network">Network</div>
+            <div class="step dom">DOM Processing</div>
+            <div class="step render">Render</div>
+            <div class="step client">Client Side Code</div>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Performance API</h2>
+        <pre>performance.mark</pre>
+    </section>
+
+    <section class="slide">
+        <h2>Measure what matters</h2>
+        <h3 class='slide'>Twitter: time to first tweet</h3>
+        <h3 class='slide'>Amazon: time to product</h3>
+    </section>
+
+    <section class="slide">
+        <h3 class='light'>"Developers will optimize for whatever you measure" <br/>- Seth Walker, Etsy</h3>
+    </section>
+
+    <section class="slide appnetabg darktext">
+        <div></div>
+    </section>
+
+    <section class="slide">
+        <h2>saucelabs + selenium + node.js</h2>
+        <a class='slide' href="https://saucelabs.com/tests/6dc0bec8c5a144918673dcfec837fea9" target="_blank" class="small">saucelabs test</a>
+    </section>
+
+    <section class="slide">
+        <h2>Continuous Performance Measurement</h2>
+    </section>
+
+    <section class="slide">
+        <h2>BBC: 10s</h2>
+    </section>
+
+    <serction class="slide">
+        <h2 class="light">"Responsive: gradient of screen sizes,
+            CPU’s, memory and network" <br> - Stephanie Rieger</h2>
+    </serction>
+
+    <section class="slide">
+        <h2>Etsy: Performance report</h2>
+        <img src="images/etsy-report.png"/>
+        <h6 class="light">Median and 95th percentile load times for signed in users</h6>
+    </section>
+
+    <section class="slide">
+        <h2 class="light">"Being a 'performance cop' is not sustainable way to do things"</h2>
+        <h3 class="slide light">It is a group effort</h3>
+    </section>
+
+    <section class="slide">
+        <h2>Takeouts:</h2>
+        <h3>• Optimize for what matters</h3>
+        <h3>• Measure continuously</h3>
+        <h3>• Performance.api is great</h3>
+        <h3>• Keep 1000ms barrier in mind</h3>
+    </section>
+
+    <section class="slide">
+        <h2>Thank you.</h2>
+    </section>
+
+
+
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.status snippet -->
+    <p class="deck-status" aria-role="status">
+        <span class="deck-status-current"></span>
+        /
+        <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+        <label for="goto-slide">Go to slide:</label>
+        <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+        <datalist id="goto-datalist"></datalist>
+        <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+</div>
+
+<!-- Required JS files. -->
+<script src="jquery.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<!--<script src="extensions/scale/deck.scale.js"></script>-->
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+  });
+  $(document).keyup(function(e) {
+      if (e.keyCode == 27) {
+          $.deck('toggleMenu');
+      }
+  });
+</script>
+</body>
+</html>
