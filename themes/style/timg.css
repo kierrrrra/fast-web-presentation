@@ -503,19 +503,19 @@ a:hover, a:focus {
 
 /* line 144, timg.scss */
 .amazonbg {
-  background: url("/images/amazon-bg.jpg") no-repeat;
+  background: url("../../images/amazon-bg.jpg") no-repeat;
   background-size: cover;
 }
 
 /* line 148, timg.scss */
 .studentbg {
-  background: url("/images/student-bg.jpg") no-repeat;
+  background: url("../../images/student-bg.jpg") no-repeat;
   background-size: cover;
 }
 
 /* line 152, timg.scss */
 .devtoolsbg {
-  background: url("/images/devtoolsbg.jpg") no-repeat;
+  background: url("../../images/devtoolsbg.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -525,7 +525,7 @@ a:hover, a:focus {
 }
 /* line 158, timg.scss */
 .appnetabg div {
-  background-image: url("/images/appneta-bg.jpg");
+  background-image: url("../../images/appneta-bg.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -534,7 +534,7 @@ a:hover, a:focus {
 
 /* line 166, timg.scss */
 .appneta-report {
-  background: url("/images/appneta-report.jpg") no-repeat;
+  background: url("../../images/appneta-report.jpg") no-repeat;
   background-size: contain;
   background-position: center;
   background-color: #FFF !important;
@@ -542,7 +542,7 @@ a:hover, a:focus {
 
 /* line 172, timg.scss */
 .appneta-timeline {
-  background: url("/images/appneta-timeline.jpg") no-repeat;
+  background: url("../../images/appneta-timeline.jpg") no-repeat;
   background-size: contain;
   background-position: center;
   background-color: #FFF !important;
@@ -552,7 +552,7 @@ a:hover, a:focus {
 .ruler {
   width: 100%;
   height: 40px;
-  background: url("/images/ruler-tile.png") repeat-x;
+  background: url("../../images/ruler-tile.png") repeat-x;
 }
 
 /* line 183, timg.scss */
